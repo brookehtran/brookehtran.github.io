@@ -1,0 +1,32 @@
+body {
+    background-image: url("white gold.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed; /*comment*/
+    background-color: #c9d8ef;
+    font-family: 'Questrial', sans-serif;
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #c2d2ed;
+}
