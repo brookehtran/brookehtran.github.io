@@ -12,5 +12,47 @@
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <div id="content">
+        <h1>Portfolio</h1>
+        <h2>Game: Guadian of the Galaxy</h2>
+        <h3>Description</h3>
+        <p>In the game, the player is the Guardian of the Galaxy.
+        The user  is represented by a spaceship and must move left and right to dodge asteroids.
+         After a certain amount of time that the game is played, the game will increase in 
+         difficulty with the addition of a bigger ship to dodge. There was not a point system 
+         but each time the player ship hit an asteroid, a health bar was used up. 
+         There were only 4; each health bar was a life. The use of randomness was the number
+         and amount of asteroids to dodge and where they would appear. The game ends when the player
+         successfully dodges the asteroids for 45 seconds.The user loses when all of their health bars
+         are depleted and they get the notification that their ship crashed. </p>
+        <img src="home screen.PNG">
+        <img src="in play screen.PNG">
+        <h3>Reflection</h3>
+        <p>The game was inspired by Marvel’s Guardians of the Galaxy. The user sprite
+        is the ship the Milano from the movie. The increase in difficulty feature includes
+        another ship called the Dark Aster. The backstory of the game is from Avengers: Infinity War. 
+        In regards to success in the development process of the game, there were basic features that
+        were simple to implement.  When asteroids fell, it was easy to engineer a popping sounding to
+        accompany the visuals. To produce many asteroids, randomization was used, and this was gone over
+        in class. As for obstacles, there was difficulty in making the asteroid sprites fall down.  
+        There was an error in the code; instead of using the “when touching edge,” x and y axises were 
+        used and specific numbers were set. Another obstacle included the change from home screen to 
+        backstory to game and to get it to reset once the game ended. This meant learning to broadcast
+        messages. If there was more time and resources, the game could increase in difficulty and there
+        would be other obstacles besides the asteroid. There could be levels to complete and a final mission
+        on the Planet of Knowhere to retrieve the last Infinity Stone. </p>
+        <h3>Algorithm</h3>
+        <img src="algorithm.PNG">
+        <p>This is an algorithm because it provides step by step directions for the system to make the game 
+        run the way it is intended. When the rock (asteroid) is shown randomly (-240 to 240) on screen, it 
+        will play a pop sound until it falls down to the end of the y-axis (-240) and disappears. Afterwards,
+        clones will be created every 0.5 seconds and move around by -10 on the y-axis. If the user sprite 
+        (ship) touches the asteroid until there are no lives left, the screen that indicates the end of the
+        game appears. If the user is able to get through 40 seconds without losing any health bars, then the
+        winner screen will appear and the ship script will stop moving.</p>
+        <img src="rock.PNG">
+        <p>Lastly, this is my More Blocks creation.</p>
+        <a href="https://scratch.mit.edu/projects/259132991/#player">Try the game here!</a>
     </body>
 </html>
